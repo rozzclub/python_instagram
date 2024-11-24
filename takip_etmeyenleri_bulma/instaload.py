@@ -6,8 +6,8 @@ import instaloader
 L = instaloader.Instaloader()
 
 username = "hesapadi"
-password = "sifre"
-L.login(username, password)  # (login)
+
+L.login(username)  # (login)
 
 profile = instaloader.Profile.from_username(L.context, username)
 
